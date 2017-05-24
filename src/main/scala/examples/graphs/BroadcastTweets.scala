@@ -1,8 +1,8 @@
-package examples
+package examples.graphs
 
 import akka.actor.ActorSystem
-import akka.stream.{ActorMaterializer, ClosedShape}
 import akka.stream.scaladsl.{Broadcast, Flow, GraphDSL, RunnableGraph, Sink, Source}
+import akka.stream.{ActorMaterializer, ClosedShape}
 import akka.{Done, NotUsed}
 
 import scala.concurrent.Future
