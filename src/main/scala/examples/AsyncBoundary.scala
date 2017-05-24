@@ -13,7 +13,7 @@ import scala.concurrent.Future
 object AsyncBoundary {
 
   def main(args: Array[String]): Unit = {
-    implicit val system = ActorSystem("QuickStart")
+    implicit val system = ActorSystem("async-boundary")
     implicit val materializer = ActorMaterializer()
     implicit val ec = system.dispatcher
 

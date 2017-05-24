@@ -13,7 +13,7 @@ import scala.concurrent.{Future, Promise}
 object MaterializedValues {
 
   def main(args: Array[String]): Unit = {
-    implicit val system = ActorSystem("QuickStart")
+    implicit val system = ActorSystem("materialized-values")
     implicit val materializer = ActorMaterializer()
     implicit val ec = system.dispatcher
 

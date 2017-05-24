@@ -16,7 +16,7 @@ import scala.concurrent.Future
 object Factorials2 {
 
   def main(args: Array[String]): Unit = {
-    implicit val system = ActorSystem("QuickStart")
+    implicit val system = ActorSystem("factorials")
     implicit val materializer = ActorMaterializer()
     implicit val ec = system.dispatcher
 

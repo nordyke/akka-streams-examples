@@ -24,7 +24,7 @@ object MaterializedTweets {
   val akkaTag = Hashtag("#akka")
 
   def main(args: Array[String]): Unit = {
-    implicit val system = ActorSystem("reactive-tweets")
+    implicit val system = ActorSystem("materialized-tweets")
     implicit val materializer = ActorMaterializer()
     implicit val ec = system.dispatcher
 
