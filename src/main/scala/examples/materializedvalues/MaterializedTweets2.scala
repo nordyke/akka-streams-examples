@@ -1,4 +1,4 @@
-package examples
+package examples.materializedvalues
 
 import akka.NotUsed
 import akka.actor.ActorSystem

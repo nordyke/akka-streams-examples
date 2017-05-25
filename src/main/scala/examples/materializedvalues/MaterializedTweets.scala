@@ -1,9 +1,9 @@
-package examples
+package examples.materializedvalues
 
+import akka.NotUsed
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Flow, Keep, RunnableGraph, Sink, Source}
-import akka.{Done, NotUsed}
 
 import scala.concurrent.Future
 
